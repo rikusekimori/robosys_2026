@@ -1,11 +1,7 @@
 #!/usr/bin/python3
 import sys
 
-<<<<<<< HEAD
-def tonum(s):
-=======
 def tunum(s):
->>>>>>> dev
     try:
         return int(s)
     except:
@@ -14,6 +10,7 @@ def tunum(s):
 ans = 0
 
 for f in sys.stdin:
+    f = f.line.rstrip()
     ans += tonum(f)
 
 print(ans)
