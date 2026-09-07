@@ -4,6 +4,9 @@ import sys
 ans = 0
 
 for f in sys.stdin:
-    ans += float(f)
+    try:
+        ans += int(f)
+    except:
+        ans += float(f)
 
 print(ans)
