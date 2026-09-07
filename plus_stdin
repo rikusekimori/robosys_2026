@@ -4,6 +4,7 @@ import sys
 ans = 0
 
 for f in sys.stdin:
+    f = line.rstrip()
     try:
         ans += int(f)
     except:
