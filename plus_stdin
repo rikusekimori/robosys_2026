@@ -10,3 +10,5 @@ for f in sys.stdin:
         ans += float(f)
 
 print(ans)
+
+#practice
